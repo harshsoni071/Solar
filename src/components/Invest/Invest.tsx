@@ -111,7 +111,6 @@ function Invest() {
           </div>
         </div>  
 
-        <Footer/>
       </section>
     </>
   );

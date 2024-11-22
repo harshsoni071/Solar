@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
    <>
-    <div className="flex justify-around w-full pt-[9px] bg-white border sticky bottom-0 ">
+    <div className="flex justify-around pt-[9px] bg-white border fixed w-[400px] bottom-0 ">
           <Link to={"/"} className="flex flex-col ">
             <FontAwesomeIcon icon={faHouse} className="text-[19px]" />
             <span className="text-[14px]">Home</span>
@@ -22,7 +22,7 @@ function Footer() {
             <span className="text-[14px]">Purchased</span>
           </Link>
 
-          <Link to={""} className="flex flex-col ">
+          <Link to={"/My"} className="flex flex-col ">
             <FontAwesomeIcon icon={faUser} className="text-[19px]" />
             <span className="text-[14px]">My</span>
           </Link>

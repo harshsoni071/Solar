@@ -30,7 +30,6 @@ function Ticket() {
           </div>
         </div>
 
-        <Footer />
       </section>
     </>
   );

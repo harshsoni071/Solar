@@ -98,7 +98,6 @@ function Purchased() {
 
           </div>
         </div>
-        <Footer />
       </section>
     </>
   );

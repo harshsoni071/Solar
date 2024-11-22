@@ -76,7 +76,6 @@ function Recharge() {
           </div>
         </div>
 
-        <Footer />
       </section>
     </>
   );

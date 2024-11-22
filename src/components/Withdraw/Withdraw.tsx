@@ -116,7 +116,6 @@ function Withdraw() {
             </button>
           </div>
         </div> */}
-        {/* <Footer /> */}
       </section>
     </>
   );
