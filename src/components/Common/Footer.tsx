@@ -12,12 +12,12 @@ function Footer() {
             <span className="text-[14px]">Home</span>
           </Link>
 
-          <Link to={"invest"} className="flex flex-col ">
+          <Link to={"/invest"} className="flex flex-col ">
             <FontAwesomeIcon icon={faChartSimple} className="text-[19px]" />
             <span className="text-[14px]">Invest</span>
           </Link>
 
-          <Link to={"purchased"} className="flex flex-col ">
+          <Link to={"/purchased"} className="flex flex-col ">
             <FontAwesomeIcon icon={faBookmark} className="text-[19px]" />
             <span className="text-[14px]">Purchased</span>
           </Link>

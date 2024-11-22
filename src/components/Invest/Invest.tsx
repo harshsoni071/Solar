@@ -1,5 +1,4 @@
 import React from "react";
-import solarInvest from "../../assets/solarInvest.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartShopping,
@@ -17,7 +16,7 @@ function Invest() {
           <div className="flex gap-5 py-3 relative">
             <div className="rounded-[4px] w-[190px]  mt-[-60px] top-[-50px] ">
               <img
-                src={solarInvest}
+                src="src\assets\solarInvest.jpg"
                 alt="image"
                 className=" w-full rounded-[4px]"
               />
@@ -38,7 +37,7 @@ function Invest() {
               <span className="text-sm text-gray-500">Cycle</span>
             </div>
             <div>
-              <button className=" border px-[35px] py-[3px] text-[15px] rounded-[5px] bg-blue-600 text-white">
+              <button className=" border px-[35px] py-[3px] text-[15px] rounded-[5px] bg-blue-600 text-white hover:bg-black">
                 <FontAwesomeIcon icon={faCartShopping} className="pe-2" />
                 Buy
               </button>
@@ -50,7 +49,7 @@ function Invest() {
           <div className="flex gap-5 py-3 relative">
             <div className="rounded-[4px] w-[190px]  mt-[-60px] top-[-50px] ">
               <img
-                src={solarInvest}
+                src="src\assets\solarInvest.jpg"
                 alt="image"
                 className=" w-full rounded-[4px]"
               />
@@ -71,7 +70,7 @@ function Invest() {
               <span className="text-sm text-gray-500">Cycle</span>
             </div>
             <div>
-              <button className=" border px-[35px] py-[3px] text-[15px] rounded-[5px] bg-blue-600 text-white">
+              <button className=" border px-[35px] py-[3px] text-[15px] rounded-[5px] bg-blue-600 text-white hover:bg-black">
                 <FontAwesomeIcon icon={faCartShopping} className="pe-2" />
                 Buy
               </button>
@@ -83,7 +82,7 @@ function Invest() {
           <div className="flex gap-5 py-3 relative">
             <div className="rounded-[4px] w-[190px]  mt-[-60px] top-[-50px] ">
               <img
-                src={solarInvest}
+                src="src\assets\solarInvest.jpg"
                 alt="image"
                 className=" w-full rounded-[4px]"
               />
@@ -104,7 +103,7 @@ function Invest() {
               <span className="text-sm text-gray-500">Cycle</span>
             </div>
             <div>
-              <button className=" border px-[35px] py-[3px] text-[15px] rounded-[5px] bg-blue-600 text-white">
+              <button className=" border px-[35px] py-[3px] text-[15px] rounded-[5px] bg-blue-600 text-white hover:bg-black">
                 <FontAwesomeIcon icon={faCartShopping} className="pe-2" />
                 Buy
               </button>
